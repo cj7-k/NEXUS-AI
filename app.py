@@ -44,7 +44,7 @@ def index():
                 payload = {
                     "model": model_id,
                     "messages": [
-                        {"role": "system", "content": "You are a professional code architect. Explain the logic of the code provided clearly and simply."},
+                        {"role": "system", "content": "You are a professional code architect. Explain the logic of the code provided clearly and simply.The explannation should be very simple and clear"},
                         {"role": "user", "content": f"Language: {lang}\nCode:\n{code}"}
                     ]
                 }
